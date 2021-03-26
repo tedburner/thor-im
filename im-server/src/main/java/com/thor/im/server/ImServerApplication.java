@@ -1,13 +1,13 @@
-package com.thor.im;
+package com.thor.im.server;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ImApplication {
+public class ImServerApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(ImApplication.class, args);
+        SpringApplication.run(ImServerApplication.class, args);
     }
 
 }
